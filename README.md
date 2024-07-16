@@ -1,0 +1,1 @@
+The server deployed with fastapi, poetry and docker.

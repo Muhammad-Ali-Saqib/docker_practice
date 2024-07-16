@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "saqib-server"
+version = "0.0.1"
+description = "Developed by @github/Muhammad-Ali-Saqib"
+authors = ["Muhammad-Ali-Saqib <ali.saqib.ramzan@gmail.com>"]
+license = "The Unlicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.30.1"
+fastapi = "^0.111.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
